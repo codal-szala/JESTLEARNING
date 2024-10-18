@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Button from './Button';
+import Form from './Form';
+import UserGreeting from './UserGreeting';
+import Formsubmit from "./Formsubmit"
+import Demo from "./Demo"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const existingUsernames = ['user1', 'user2'];
 root.render(
   <React.StrictMode>
-    <App />
+  {/* <Button></Button> */}
+  {/* <Form></Form> */}
+  {/* <Formsubmit existingUsernames={existingUsernames} /> */}
+  <Demo></Demo>
+  {/* <UserGreeting></UserGreeting> */}
   </React.StrictMode>
 );
 
